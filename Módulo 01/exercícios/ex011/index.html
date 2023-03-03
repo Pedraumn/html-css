@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir o site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="ibagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ibagens/foto-m.png" type="image/png">
+        <img src="ibagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <h2>Primeira Maneira</h2>
+    <audio src="midia/Ize Of The World.mp3" controls></audio>
+    <h2>Segunda Maneira</h2>
+    <audio preload="metadata" controls> 
+        <source src="midia/Red Light.mp3" type="audio/mpeg">
+        <source src="midia/Red Light.ogg" type="audio/ogg">
+        <source src="midia/Red Light.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="https://www.youtube.com/watch?v=KyJ6Apali3I&t=2s" target="_blank" rel="external">Clique aqui e seja redirecionado para a música no YouTube</a></p>
+    </audio>
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* CUUUUUU AAAAAAAAA */
+body {
+    background-color: rgb(203, 184, 161);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: gray;
+}
+h2 {
+    color: blueviolet;
+}
+#h2Especial{
+    color: yellowgreen;
+}
+p {
+    text-align: justify;
+}
